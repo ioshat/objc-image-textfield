@@ -1,0 +1,4 @@
+UITextField *{name} = [[UITextField alloc] init];{~n}
+[{name} setTranslatesAutoresizingMaskIntoConstraints:NO];{~n}
+[{name} setBackground:[UIImage imageNamed:@"{name}"]];{~n}
+[superView addSubview:{name}];
